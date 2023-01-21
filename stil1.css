@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner{
+	background-color: darkolivegreen;
+	background-size: auto;
+	border: 1px outset red;
+	height: 100px
+}
+
+#nav{
+	border: 1px outset yellow;
+	height: 30px;
+	background-color: goldenrod;
+	margin: 3px auto
+}
+
+#section{
+	border: 1px outset red;
+	height: 400px;
+	background-color: aquamarine;
+	width: 50%;
+	margin: 10px auto
+}
+
+#article{
+	display: flex;
+	border: 0px outset;
+	height: 100px;
+	width: 51%;
+	margin: 5px auto;
+}
+
+.div_article{
+	float: left;
+	width: 32%;
+	height: 98px;
+	border: 1px outset red;
+	margin: 2px auto;
+}
+
+#footer{
+	border: 1px outset blue;
+	margin: 10px auto;
+	background-color: darkkhaki;
+	height: 30px
+}
+
+/*******************************************/
+
+h1{
+	text-align: center;
+	color: whitesmoke;
+	/*font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	font-family: "DejaVu Sans Condensed"*/
+	font-family: Stencil Std, fantasy;
+	font-size: 45px;
+}
